@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#produto-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#produto-lista li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: #f4f4f4;
+    border-radius: 4px;
+}
+
+form input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.button {
+  width: 150px;
+  padding: 0;
+  border: none;
+  transform: rotate(5deg);
+  transform-origin: center;
+  font-family: "Gochi Hand", cursive;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #494a4b;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: #f0f0f0;
+}
+
+.button span {
+  background: #4f9fdb;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid #494a4b;
+}
+
+.button:active {
+  transform: translateY(5px);
+  padding-bottom: 0px;
+  outline: 0;
+}

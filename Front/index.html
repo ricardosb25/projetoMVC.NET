@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Produtos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Lista de Produtos</h1>
+    <ul id="produto-lista"></ul>
+
+    <h2>Adicionar Produto</h2>
+    <form id="produto-form">
+        <input type="text" id="nome" placeholder="Nome" required />
+        <input type="number" id="preco" placeholder="Preço" step="0.01" required />
+        <button class="button" type="submit">Adicionar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
